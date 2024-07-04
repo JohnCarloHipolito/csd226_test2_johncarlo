@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{layout :: head}">
+    <title>Star Hortons</title>
+</head>
+<body>
+<div th:replace="~{layout :: body}">
+    <main th:fragment="content">
+        <div class="pt-[136px] sm:pt-[96px] px-4 pb-4 mx-auto min-h-screen grid grid-cols-1 md:grid-cols-3 gap-2 max-w-5xl">
+            <div id="coffee" class="min-h-48 flex justify-start items-end bg-opacity-25">
+                <div class="px-4 py-2 m-2 font-bold border text-white">Coffee</div>
+            </div>
+            <div id="sandwich" class="min-h-48 flex justify-start items-end bg-opacity-25">
+                <span class="px-4 py-2 m-2 font-bold border text-white">Sandwich</span>
+            </div>
+            <div id="beans" class="min-h-48 flex justify-start items-end bg-opacity-25">
+                <span class="px-4 py-2 m-2 font-bold border text-white">Beans</span>
+            </div>
+        </div>
+        <div class="text-brown-700 p-6 shadow-lg max-w-4xl mx-auto my-8">
+            <p><span class="text-lg font-bold text-amber-700 py-1 bg-amber-100">Welcome to our coffee haven! At Star Hortons</span>
+                we believe that every cup tells a story. Nestled in the heart
+                of Toronto, our cozy and inviting space is the perfect place to unwind, catch up with friends, or
+                simply savor the moment. We pride ourselves on sourcing the finest beans from around the world, roasting
+                them to perfection, and brewing each cup with love and precision. Whether you're a coffee aficionado or
+                just need a quick pick-me-up, our baristas are here to craft the perfect beverage for you.</p>
+            <p class="text-base md:text-lg leading-relaxed text-gray-700 my-4">
+                From rich, bold espressos to creamy lattes and refreshing cold brews, we offer a wide range of options to
+                suit every palate. And it's not just about the coffee – our selection of teas, pastries, and light bites
+                are designed to complement your drink and enhance your experience.
+                Step inside, breathe in the aroma, and let us make your day a little brighter. Welcome to Star Hortons –
+                where every cup is a new beginning.
+            </p>
+        </div>
+    </main>
+</div>
+</body>
+</html>

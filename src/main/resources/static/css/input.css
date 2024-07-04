@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#coffee {
+    background-image: url('../img/coffee.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#sandwich {
+    background-image: url('../img/sandwich.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+#beans {
+    background-image: url('../img/beans.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
